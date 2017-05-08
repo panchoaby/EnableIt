@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -39,19 +40,19 @@
 
 		                    	<div class="wizard-header">
 		                        	<h3 class="wizard-title">
-		                        	   Build Your Company's Account
+		                        	   Build Your Account
 		                        	</h3>
 		                    	</div>
 								<div class="wizard-navigation">
 									<ul>
-			                            <li><a href="#about" data-toggle="tab">About</a></li>
+			                            <li><a href="#about-section" data-toggle="tab">About You</a></li>
 			                            <li><a href="#account" data-toggle="tab">Account</a></li>
 			                            <li><a href="#address" data-toggle="tab">Address</a></li>
 			                        </ul>
 								</div>
 
 		                        <div class="tab-content">
-		                            <div class="tab-pane" id="about">
+		                            <div class="tab-pane" id="about-section">
 		                              <div class="row">
 		                                	<h4 class="info-text"> Let's start with the basic information</h4>
 		                                	<div class="col-sm-4 col-sm-offset-1">
@@ -61,85 +62,54 @@
 		                                            	<input type="file" id="wizard-picture">
 		                                        	</div>
 		                                        	<h6>Choose Picture</h6>
-																							<p>(It could be the company's logo)</p>
+																							<p>(If you'd like to have a profile picture)</p>
 		                                    	</div>
 		                                	</div>
 		                                	<div class="col-sm-6">
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">face</i>
-													</span>
 													<div class="form-group label-floating">
-			                                          <label class="control-label">Your Name <small>(required)</small></label>
-			                                          <input name="person-name" type="text" class="form-control">
-			                                        </div>
-												</div>
-
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">record_voice_over</i>
-													</span>
+			                       <label class="control-label"> Your firstname <small>(required)</small></label>
+			                       <input name="firstname" type="firstname" class="form-control">
+			                    </div>
 													<div class="form-group label-floating">
-													  <label class="control-label">The company you are representing <small>(required)</small></label>
-													  <input name="company-name" type="text" class="form-control">
+													  <label class="control-label">Your lastname<small>(required)</small></label>
+													  <input name="lastname" type="lastname" class="form-control">
 													</div>
-												</div>
-		                                	</div>
+		                    </div>
 		                   <div class="col-sm-10 col-sm-offset-1">
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">email</i>
-													</span>
 													<div class="form-group label-floating">
-			                       <label class="control-label">Company Email <small>(required)</small></label>
+			                       <label class="control-label">Your Email <small>(required)</small></label>
 			                       <input name="email" type="email" class="form-control">
 			                    </div>
-												</div>
 		                   </div>
 		                 </div>
 		                            </div>
 		                            <div class="tab-pane" id="account">
-		                                <h4 class="info-text"> What is your company profile? </h4>
+		                                <h4 class="info-text"> About your work capability </h4>
 																		<div class="row">
 																			<div class="col-sm-10 col-sm-offset-1">
-								 												<div class="input-group">
-								 													<span class="input-group-addon">
-								 														<i class="material-icons">description</i>
-								 													</span>
 								 													<div class="form-group label-floating">
-								 			                       <label class="control-label">Company's profile <small>(required)</small></label>
-								 			                       <input name="profile" type="email" class="form-control">
+								 			                       <label class="control-label">What kind of job would you like to have? <small>(required)</small></label>
+								 			                       <input name="job-name" type="text" class="form-control">
 								 			                    </div>
-								 												</div>
+                                      </div>
 																				<div class="col-sm-10 col-sm-offset-1">
-									 												<div class="input-group">
-									 													<span class="input-group-addon">
-									 														<i class="material-icons">group</i>
-									 													</span>
 									 													<div class="form-group label-floating">
-									 			                       <label class="control-label">Number of employees</label>
+									 			                       <label class="control-label">What skills recommend you for this job? <small>(required)</small></label>
 									 			                       <input name="emp-number" type="email" class="form-control">
 									 			                    </div>
-									 												</div>
 							 		                   	</div>
 																			<div class="col-sm-10 col-sm-offset-1">
-																				<div class="input-group">
-																					<span class="input-group-addon">
-																						<i class="material-icons">assignment</i>
-																					</span>
 																					<div class="form-group label-floating">
-																						 <label class="control-label">What type of jobs do you want to promote?</label>
+																						 <label class="control-label">What is your disability? <small>(required)</small></label>
 																						 <input name="emp-number" type="email" class="form-control">
 																					</div>
-																				</div>
-																		</div>
 																		</div>
 		                            </div>
 															</div>
 		                            <div class="tab-pane" id="address">
 		                                <div class="row">
 		                                    <div class="col-sm-12">
-		                                        <h4 class="info-text"> Where is your company? </h4>
+		                                        <h4 class="info-text"> Where are you living? </h4>
 		                                    </div>
 		                                    <div class="col-sm-7 col-sm-offset-1">
 	                                        	<div class="form-group label-floating">
