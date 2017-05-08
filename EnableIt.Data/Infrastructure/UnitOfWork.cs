@@ -36,7 +36,7 @@ namespace EnableIt.Data.Infrastructure
       {
         if (disposing)
         {
-          _context.Dispose();
+          _context?.Dispose();
         }
       }
       _disposed = true;
