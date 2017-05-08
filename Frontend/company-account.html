@@ -3,9 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Company account</title>
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon.ico">
-
-	<title>Material Bootstrap Wizard by Creative Tim</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -27,23 +26,6 @@
 
 <body>
 	<div class="image-container set-full-height" style="background-image: url('assets/img/wizard-profile.jpg')">
-	    <!--   Creative Tim Branding   -->
-	    <a href="http://creative-tim.com">
-	         <div class="logo-container">
-	            <div class="logo">
-	                <img src="assets/img/new_logo.png">
-	            </div>
-	            <div class="brand">
-	                Creative Tim
-	            </div>
-	        </div>
-	    </a>
-
-		<!--  Made With Material Kit  -->
-		<a href="http://demos.creative-tim.com/material-kit/index.html?ref=material-bootstrap-wizard" class="made-with-mk">
-			<div class="brand">MK</div>
-			<div class="made-with">Made with <strong>Material Kit</strong></div>
-		</a>
 
 	    <!--   Big container   -->
 	    <div class="container">
@@ -57,9 +39,8 @@
 
 		                    	<div class="wizard-header">
 		                        	<h3 class="wizard-title">
-		                        	   Build Your Profile
+		                        	   Build Your Company's Account
 		                        	</h3>
-									<h5>This information will let us know more about you.</h5>
 		                    	</div>
 								<div class="wizard-navigation">
 									<ul>
@@ -72,7 +53,7 @@
 		                        <div class="tab-content">
 		                            <div class="tab-pane" id="about">
 		                              <div class="row">
-		                                	<h4 class="info-text"> Let's start with the basic information (with validation)</h4>
+		                                	<h4 class="info-text"> Let's start with the basic information</h4>
 		                                	<div class="col-sm-4 col-sm-offset-1">
 		                                    	<div class="picture-container">
 		                                        	<div class="picture">
@@ -80,6 +61,7 @@
 		                                            	<input type="file" id="wizard-picture">
 		                                        	</div>
 		                                        	<h6>Choose Picture</h6>
+																							<p>(It could be the company's logo)</p>
 		                                    	</div>
 		                                	</div>
 		                                	<div class="col-sm-6">
@@ -88,8 +70,8 @@
 														<i class="material-icons">face</i>
 													</span>
 													<div class="form-group label-floating">
-			                                          <label class="control-label">First Name <small>(required)</small></label>
-			                                          <input name="firstname" type="text" class="form-control">
+			                                          <label class="control-label">Your Name <small>(required)</small></label>
+			                                          <input name="person-name" type="text" class="form-control">
 			                                        </div>
 												</div>
 
@@ -98,27 +80,61 @@
 														<i class="material-icons">record_voice_over</i>
 													</span>
 													<div class="form-group label-floating">
-													  <label class="control-label">Last Name <small>(required)</small></label>
-													  <input name="lastname" type="text" class="form-control">
+													  <label class="control-label">The company you are representing <small>(required)</small></label>
+													  <input name="company-name" type="text" class="form-control">
 													</div>
 												</div>
 		                                	</div>
-		                                	<div class="col-sm-10 col-sm-offset-1">
+		                   <div class="col-sm-10 col-sm-offset-1">
 												<div class="input-group">
 													<span class="input-group-addon">
 														<i class="material-icons">email</i>
 													</span>
 													<div class="form-group label-floating">
-			                                            <label class="control-label">Email <small>(required)</small></label>
-			                                            <input name="email" type="email" class="form-control">
-			                                        </div>
+			                       <label class="control-label">Company Email <small>(required)</small></label>
+			                       <input name="email" type="email" class="form-control">
+			                    </div>
 												</div>
-		                                	</div>
-		                            	</div>
+		                   </div>
+		                 </div>
 		                            </div>
 		                            <div class="tab-pane" id="account">
-		                                <h4 class="info-text"> What are you doing? (checkboxes) </h4>
-		                                <div class="row">
+		                                <h4 class="info-text"> What is your company profile? </h4>
+																		<div class="row">
+																			<div class="col-sm-10 col-sm-offset-1">
+								 												<div class="input-group">
+								 													<span class="input-group-addon">
+								 														<i class="material-icons">description</i>
+								 													</span>
+								 													<div class="form-group label-floating">
+								 			                       <label class="control-label">Company's profile <small>(required)</small></label>
+								 			                       <input name="profile" type="email" class="form-control">
+								 			                    </div>
+								 												</div>
+																				<div class="col-sm-10 col-sm-offset-1">
+									 												<div class="input-group">
+									 													<span class="input-group-addon">
+									 														<i class="material-icons">group</i>
+									 													</span>
+									 													<div class="form-group label-floating">
+									 			                       <label class="control-label">Number of employees</label>
+									 			                       <input name="emp-number" type="email" class="form-control">
+									 			                    </div>
+									 												</div>
+							 		                   	</div>
+																			<div class="col-sm-10 col-sm-offset-1">
+																				<div class="input-group">
+																					<span class="input-group-addon">
+																						<i class="material-icons">assignment</i>
+																					</span>
+																					<div class="form-group label-floating">
+																						 <label class="control-label">What type of jobs do you want to promote?</label>
+																						 <input name="emp-number" type="email" class="form-control">
+																					</div>
+																				</div>
+																		</div>
+																		</div>
+																		<!-- <div class="row">
 		                                    <div class="col-sm-10 col-sm-offset-1">
 		                                        <div class="col-sm-4">
 		                                            <div class="choice" data-toggle="wizard-checkbox">
@@ -148,8 +164,9 @@
 		                                            </div>
 		                                        </div>
 		                                    </div>
-		                                </div>
+		                                </div> -->
 		                            </div>
+															</div>
 		                            <div class="tab-pane" id="address">
 		                                <div class="row">
 		                                    <div class="col-sm-12">
@@ -178,14 +195,14 @@
 		                                            <label class="control-label">Country</label>
 	                                            	<select name="country" class="form-control">
 														<option disabled="" selected=""></option>
-	                                                	<option value="Afghanistan"> Afghanistan </option>
-	                                                	<option value="Albania"> Albania </option>
-	                                                	<option value="Algeria"> Algeria </option>
-	                                                	<option value="American Samoa"> American Samoa </option>
-	                                                	<option value="Andorra"> Andorra </option>
-	                                                	<option value="Angola"> Angola </option>
-	                                                	<option value="Anguilla"> Anguilla </option>
-	                                                	<option value="Antarctica"> Antarctica </option>
+	                                                	<option value="Romania"> Romania </option>
+	                                                	<option value="Hungary"> Hungary </option>
+	                                                	<option value="Ukraine"> Ukraine </option>
+	                                                	<option value="Serbia"> Serbia </option>
+	                                                	<option value="Netherlands"> Netherlands </option>
+	                                                	<option value="Belgium"> Belgium </option>
+	                                                	<option value="France"> France </option>
+	                                                	<option value="Germany"> Germany </option>
 	                                                	<option value="...">...</option>
 	                                            	</select>
 		                                        </div>
@@ -212,9 +229,6 @@
 	    </div> <!--  big container -->
 
 	    <div class="footer">
-	        <div class="container text-center">
-	             Made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>. Free download <a href="http://www.creative-tim.com/product/bootstrap-wizard">here.</a>
-	        </div>
 	    </div>
 	</div>
 
