@@ -61,6 +61,13 @@ namespace EnableIt.Web.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        public ActionResult LoginEmployer(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
         //
         // POST: /Account/Login
         [HttpPost]
